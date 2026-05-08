@@ -343,7 +343,7 @@ footer a:hover {
     font-weight: 600;
 }
 
-.ritual-row span {
+.mini-icon {
     display: grid;
     place-items: center;
     width: 3rem;
@@ -352,6 +352,36 @@ footer a:hover {
     background: rgba(255, 113, 181, 0.13);
     color: var(--oracle-pink);
     box-shadow: 0 0 28px rgba(255, 113, 181, 0.18);
+}
+
+.mini-icon svg {
+    width: 1.35rem;
+    height: 1.35rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.icon-cup svg,
+.feature-icon.pink svg {
+    transform: translateX(0.08rem);
+}
+
+.icon-memory {
+    background: rgba(142, 92, 255, 0.14);
+    color: #b895ff;
+}
+
+.icon-symbols {
+    background: rgba(56, 216, 255, 0.12);
+    color: var(--ethereal-teal);
+}
+
+.icon-chat {
+    background: rgba(255, 214, 0, 0.11);
+    color: var(--celestial-gold);
 }
 
 .download-btn {
@@ -482,7 +512,16 @@ footer a:hover {
     width: 4.6rem;
     height: 4.6rem;
     border-radius: 50%;
-    font-size: 2rem;
+}
+
+.feature-icon svg {
+    width: 2.05rem;
+    height: 2.05rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .feature-icon.pink {
